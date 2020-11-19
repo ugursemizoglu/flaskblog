@@ -38,10 +38,10 @@ class LoginForm(Form):
 app = Flask(__name__)
 app.secret_key = "USBlog"
 
-app.config["MYSQL_HOST"] = "localhost"
-app.config["MYSQL_USER"] = "yarugurs_blog"
+app.config["MYSQL_HOST"] = "ugursemizoglu.mysql.pythonanywhere-services.com"
+app.config["MYSQL_USER"] = "ugursemizoglu"
 app.config["MYSQL_PASSWORD"] = "2530--ugur"
-app.config["MYSQL_DB"] = "yarugurs_blog"
+app.config["MYSQL_DB"] = "ugursemizoglu$usblog"
 app.config["MYSQL_CURSORCLASS"] = "DictCursor"
 
 mysql = MySQL(app)
